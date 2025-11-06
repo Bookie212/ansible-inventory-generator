@@ -1,0 +1,31 @@
+# --- Python cache and build files ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual environments ---
+venv/
+env/
+
+# --- Environment variables and secrets ---
+.env
+
+# --- SQLite database files ---
+*.db
+
+# Ignore generated Ansible files
+*.yml
+*.yaml
+
+# --- Logs ---
+*.log
+
+# --- IDE / Editor files ---
+*.code-workscape
+.vscode/
+.idea/
+
+# --- OS-specific files ---
+.DS_Store
+Thumbs.db
